@@ -1,0 +1,33 @@
+.swiperslide{
+    height: 35rem;
+    width: 30rem;
+    overflow: hidden;
+    position: relative;
+}
+.swiperslie img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.swiperslide p{
+     position: absolute;
+     bottom: 2rem;
+     left: 35%;
+     z-index: 999;
+     color: white;
+     font-size: 2.5rem;
+}
+
+/*Responsive area*/
+@media only screen and (max-width: 768px) {
+    .swiperslide{
+        height: 27rem;
+        width: 23rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .swiperslide{
+        height: 22rem;
+        width: 18rem;
+    }
+}
