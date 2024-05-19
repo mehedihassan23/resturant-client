@@ -1,0 +1,38 @@
+.menubanner{
+    height: 60vh;
+    width: 90vw;
+    margin: 5rem auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://res.cloudinary.com/doolocyaf/image/upload/v1716192756/Resturant%20Project/slide2_t0f7wv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menubanner .menubannerdetails{
+    backdrop-filter: blur(1px); 
+    width: 60vw;
+    padding: 5rem;
+} 
+.menubanner .menubannerdetails .menubannertitle{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+} 
+.menubanner .menubannerdetails .menubannerdescription{
+    font-size: 1.5rem;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .menubanner{
+        height: 50vh;   
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .menubanner{
+        height: 40vh;
+    }
+  }
