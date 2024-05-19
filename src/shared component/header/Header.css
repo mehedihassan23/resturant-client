@@ -1,0 +1,71 @@
+nav{
+    background-origin: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li{
+    height: 50px;  
+}
+nav ul li.menu-button{
+    display: none;
+}  
+nav ul li:first-child{
+    margin-right: auto;
+}    
+nav ul li:first-child .link:hover{
+    background-color: rgb(255, 255, 255)
+}    
+nav ul li .link{
+     height: 100%;
+     padding: 0 30px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     color: black;
+     transition: 0.5s;
+     font-size: 2rem;
+}    
+nav ul li .link:hover{
+    color: crimson;
+    background-color: rgba(119, 114, 114, 0.7);
+}
+
+/*Sidebar*/
+nav .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background: rgba(184, 168, 168, 0.1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+     
+}
+nav .sidebar li{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+   
+}
+@media only screen and (max-width: 600px) {
+    nav ul li.menu-button{
+        display: block;
+    }
+    nav ul li.mobile-hide{
+        display: none;
+    }
+     
+} 
+
