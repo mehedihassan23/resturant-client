@@ -47,7 +47,7 @@ const Swipper = () => {
           <SwiperSlide>
             <div className='swiperslide'>
                <Link>
-               <img src="https://res.cloudinary.com/doolocyaf/image/upload/v1716192756/Resturant%20Project/slide5_s4jwmv.jpg" alt="salad"/>
+               <img src="https://res.cloudinary.com/doolocyaf/image/upload/v1716192756/Resturant%20Project/slide1_riqjd7.jpg" alt="salad"/>
                </Link>
                <p>Salad</p>
             </div>

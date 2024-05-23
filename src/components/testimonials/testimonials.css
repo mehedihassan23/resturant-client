@@ -1,0 +1,28 @@
+.slide{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slide .sliderating{
+    margin-bottom: 2rem;
+}
+.slide .slidedetails{
+    width: 50rem;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.slide .slidename{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #CD9003
+}
+
+/*Responsive area*/
+@media only screen and (max-width: 600px) {
+    .slide .slidedetails{
+        width: 40rem;
+    }
+}

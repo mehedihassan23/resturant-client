@@ -1,0 +1,39 @@
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+    width: 95%;
+}
+.menuitem{
+    display: flex;
+}
+.menuitem img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0 5rem 5rem 5rem;
+}
+.menuitem div .itemname{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.menuitem div .itemdetails{
+    font-size: 1.5rem;
+}
+.menuitem .price{
+    font-size: 1.5rem;
+    color:  #BB8506;
+}
+
+/*Responsive area*/
+@media only screen and (max-width: 768px) {
+    .menu{    
+        grid-template-columns: auto auto;      
+    }
+}
+@media only screen and (max-width: 600px) {
+    .menu{    
+        grid-template-columns:  auto;      
+    }
+}

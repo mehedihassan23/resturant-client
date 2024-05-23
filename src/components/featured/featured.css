@@ -1,0 +1,79 @@
+.featuredSection{
+    background: rgba(0, 0, 0, 0.7)url("https://res.cloudinary.com/doolocyaf/image/upload/v1716192756/Resturant%20Project/slide3_bfhrfm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    padding: 5rem;
+}
+.featuredSection .sectiontitle{
+    margin-bottom: 2rem;
+}
+.featuredSection .sectiontitle h2{
+    color: white;
+    font-weight: normal !important;
+}
+.featuredSection .feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+.featuredSection .feature .image{
+    height: 20rem;
+    width: 35rem;
+    margin-right: 2rem;
+}
+.featuredSection .feature .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.featuredSection .feature .detailsSection{
+    width: 40rem;
+}
+.featuredSection .feature .detailsSection .date{
+    font-size: 2.5rem;
+    color: white;
+}
+.featuredSection .feature .detailsSection .question{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.featuredSection .feature .detailsSection .details{
+    font-size: 2rem;
+    color: white;
+}
+.featuredSection .feature .detailsSection button{
+    padding: 1rem 3rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    color: white;
+    transition: 0.3s;
+}
+.featuredSection .feature .detailsSection button:hover{  
+    background: gray; 
+    border-bottom: none;  
+}
+
+/*responsive area*/
+@media only screen and (max-width: 650px) {
+    .featuredSection .feature{
+        flex-direction: column;
+        margin: 5rem 0;
+    }
+    .featuredSection .feature .image{
+        height: 25rem;
+        width: 40rem;
+        margin-bottom: 5rem;
+    }
+    .featuredSection .feature .detailsSection button{    
+        margin-top: 5rem;     
+    }
+}

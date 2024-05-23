@@ -1,0 +1,60 @@
+.menuCard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 2rem;
+}
+.menuCard .menucards{
+    width: 30rem;
+    margin: 2rem 0;
+}
+.menuCard .menucards img{
+    width: 100%;
+    height: 30rem;
+}
+.menuCard .menucards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menuCard .menucards div .name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.menuCard .menucards div .recipe{
+    font-size: 1.5rem;
+}
+.menuCard .menucards div button{
+    margin: 5rem 0;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #BB8506;
+    border-radius: 0.5rem;
+    color: #BB8506 ;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+.menuCard .menucards div button:hover{
+    background: #1F2937;
+    border-bottom: none;
+}
+
+/*responsive area*/
+@media only screen and (max-width: 768px) {
+    .menuCard{
+        grid-template-columns: auto auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .menuCard{
+        grid-template-columns: auto;
+        padding: 0 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
