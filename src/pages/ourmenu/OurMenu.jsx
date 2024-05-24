@@ -2,9 +2,12 @@ import React from 'react'
 import Menubanner from '../../shared component/menubanner/Menubanner'
 import SectionTitle from '../../components/sectionTitle/SectionTitle'
 import Menu from '../../shared component/menu/Menu'
+import PageTitle from '../../components/pagetitle/PageTitle'
 
 const OurMenu = () => {
   return (
+    <>
+    <PageTitle pagetitle="Resturant । Our Menu" pageicon="https://res.cloudinary.com/doolocyaf/image/upload/v1716611888/Resturant%20Project/menu-bar_vee4ik.png"></PageTitle>
      <section className='ourmenu'>
         <Menubanner menubannertitle="Our Menu" menubannerdescription="Would you like to try a dish?"></Menubanner>
         <SectionTitle title1="Don't miss" title2="Today's Offer"></SectionTitle>
@@ -23,6 +26,7 @@ const OurMenu = () => {
         <Menu Menucategory="soup"></Menu>
 
      </section>
+     </>
   )
 }
 

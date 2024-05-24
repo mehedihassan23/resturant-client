@@ -8,11 +8,15 @@ import CallUs from '../../components/callus/CallUs'
 import Menucard from '../../components/menucard/Menucard'
 import Featured from '../../components/featured/Featured'
 import Testimonials from '../../components/testimonials/Testimonials'
+import PageTitle from '../../components/pagetitle/PageTitle'
+
 
 
 const Home = () => {
   return (
     <>
+            
+       <PageTitle pagetitle="Resturant । Home" pageicon="https://res.cloudinary.com/doolocyaf/image/upload/v1716610835/Resturant%20Project/home_icon_xh5cjh.jpg"></PageTitle> 
        <Slider></Slider>
        <section style={{margin: "5rem"}}>
          <SectionTitle title1="From 10 am to 4 pm"

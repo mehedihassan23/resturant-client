@@ -12,7 +12,8 @@ const Header = () => {
         <li><NavLink to="" className="link">Resturant</NavLink></li>
         <li><NavLink to="/" className="link">Home</NavLink></li>
         <li><NavLink to="/menu" className="link">Our Menu</NavLink></li>
-        <li><NavLink to="" className="link">Login</NavLink></li>
+        <li className='mobile-hide'><NavLink to="/shop" className="link">Our Shop</NavLink></li>
+        <li><NavLink to="/signin" className="link">Sign In</NavLink></li>
         <li onClick={() => setToggle(!toggle)} >
           <NavLink className="link"> <FaWindowClose /> </NavLink>
         </li>
@@ -22,7 +23,8 @@ const Header = () => {
         <li className='logo'><NavLink to="/" className="link">Resturant</NavLink></li>
         <li className='mobile-hide'><NavLink to="/" className="link">Home</NavLink></li>
         <li className='mobile-hide'><NavLink to="/menu" className="link">Our Menu</NavLink></li>
-        <li className='mobile-hide'><NavLink to="" className="link">Login</NavLink></li>
+        <li className='mobile-hide'><NavLink to="/shop" className="link">Our Shop</NavLink></li>
+        <li className='mobile-hide'><NavLink to="/signin" className="link">Sign In</NavLink></li>
         <li onClick={() => setToggle(!toggle)} className='menu-button'>
           <NavLink className="link"> <FaAlignJustify /> </NavLink>
         </li>

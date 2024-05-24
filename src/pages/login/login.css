@@ -1,0 +1,126 @@
+.loginpage{
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://res.cloudinary.com/doolocyaf/image/upload/v1716614114/Resturant%20Project/login-backgroud_fzvab4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.loginpage .image{
+    height: 45rem;
+    width: 35rem;
+}
+.loginpage .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.loginpage .loginform form .inputdiv{
+    margin-bottom: 3rem;
+    position: relative;
+}
+.loginpage .loginform form .inputdiv label{
+     color: #8a8a8a; 
+    font-size: 1.5rem;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .3s;
+}
+.loginpage .loginform form .inputdiv input{
+    height: 4rem;
+    width: 25rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.loginpage .loginform form .inputdiv input:focus ~ label{    
+    transform: translateY(-40px);
+    color: black;
+}
+input[type="submit"]{
+    height: 4rem;
+    width: 25rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #D1A054;
+    color: #fff;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #ab8d61;
+}
+.loginpage .loginform form .social p{
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+.loginpage .loginform form .social p svg{
+    margin: 1rem;
+    font-size: 3rem;
+    transition: 0.5s;
+}
+.loginpage .loginform form .social p svg:hover{
+    color: #D1A054;
+    cursor: pointer;
+}
+.loginpage .loginform form .social p a{
+    text-decoration: none;
+    text-align: center;
+}
+ 
+ 
+.signuplink{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #D1A054;
+    transition: 0.3s;
+}
+.signuplink:hover{
+    color: #ab8d61;
+    text-decoration: underline;
+}
+
+/*Responsive area*/
+
+@media only screen and (max-width: 768px) {
+    .loginpage{
+        padding: 8rem; 
+        
+    }
+    .loginpage .image{
+        height: 40rem;
+        width: 30rem;
+        
+    }
+    
+    .loginpage .loginform form .inputdiv{
+        margin-bottom: 2.5rem;
+    }
+    
+}
+@media only screen and (max-width: 650px) {
+    .loginpage{
+        flex-direction: column-reverse;   
+    }
+    .loginpage .image{
+        margin-top: 5rem;
+        height: 35rem;
+        width: 25rem;
+    }
+    
+    .loginpage .loginform form .inputdiv{
+        margin-bottom: 2.5rem;
+    }
+    .loginpage .loginform form .social p{
+        text-align: left;
+    }
+}
