@@ -10,8 +10,8 @@ const Header = () => {
     <nav>
       <ul className='sidebar' style={{ display: toggle ? "flex" : "none" }} >
         <li><NavLink to="" className="link">Resturant</NavLink></li>
-        <li><NavLink to="" className="link">Home</NavLink></li>
-        <li><NavLink to="" className="link">About</NavLink></li>
+        <li><NavLink to="/" className="link">Home</NavLink></li>
+        <li><NavLink to="/menu" className="link">Our Menu</NavLink></li>
         <li><NavLink to="" className="link">Login</NavLink></li>
         <li onClick={() => setToggle(!toggle)} >
           <NavLink className="link"> <FaWindowClose /> </NavLink>
@@ -20,8 +20,8 @@ const Header = () => {
 
       <ul style={{ display: toggle ? "none" : "flex" }} id='navbar'>
         <li className='logo'><NavLink to="/" className="link">Resturant</NavLink></li>
-        <li className='mobile-hide'><NavLink to="" className="link">Home</NavLink></li>
-        <li className='mobile-hide'><NavLink to="" className="link">About</NavLink></li>
+        <li className='mobile-hide'><NavLink to="/" className="link">Home</NavLink></li>
+        <li className='mobile-hide'><NavLink to="/menu" className="link">Our Menu</NavLink></li>
         <li className='mobile-hide'><NavLink to="" className="link">Login</NavLink></li>
         <li onClick={() => setToggle(!toggle)} className='menu-button'>
           <NavLink className="link"> <FaAlignJustify /> </NavLink>

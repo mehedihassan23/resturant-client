@@ -25,7 +25,19 @@
     font-size: 1.5rem;
     color:  #BB8506;
 }
-
+.menuButton{ 
+   border: none;
+   text-transform: capitalize;
+   height: 5rem;
+   width: 20rem;
+   margin-left: 40%;
+   transition: 0.3s;
+   font-size: 1.5rem;
+   border-radius: 5px;
+}
+.menuButton:hover{ 
+    background: rgb(199, 199, 199);
+ }
 /*Responsive area*/
 @media only screen and (max-width: 768px) {
     .menu{    

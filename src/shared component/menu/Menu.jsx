@@ -4,16 +4,18 @@ import "./menu.css"
 import useMenuData from '../../hooks/useMenuData';
 
 
-const Menu = () => {
+const Menu = ({Menucategory}) => {
 
    const [menuData, loading] = useMenuData()
+   console.log("From Menu", typeof Menucategory)
 
    return (
+      <>
       <section className='menu'>
          {loading && <p style={{fontSize: "1.5rem"}}>loading...</p>}
        
           {
-            menuData.filter((menu) => menu.category === "popular").map(menudata => {
+            menuData.filter((menu) => menu.category === Menucategory).map(menudata => {
                const {_id, name, image, recipe,  price} = menudata;
             
                return <div className='menuitem' key={_id}>
@@ -26,7 +28,10 @@ const Menu = () => {
                </div>
             })
           }
+          
       </section>
+      <button className='menuButton'>View Our full item</button>
+      </>
    )
   
 }
