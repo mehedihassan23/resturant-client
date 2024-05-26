@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='contact'>
         <ul>
           <li>Contact us</li>
-          <li>123 ABS Street, Uni21, Bangladesh</li>
+          <li>123/ABS Street, United States </li>
           <li>+0123456789</li>
           <li>Mon-Fri: 8 am - 4 Pm</li>
         </ul>

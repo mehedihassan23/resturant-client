@@ -1,0 +1,69 @@
+
+.adminhome .useractivity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.adminhome .useractivity .userImage{
+    background-color: blanchedalmond;
+    width: 30rem;
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adminhome .useractivity .userImage img{     
+    width: 10rem;
+    border-radius: 50%;
+}
+.adminhome .useractivity .user-activity-content{
+    padding: 5rem;
+    background-color: rgb(241, 208, 158);
+}
+.adminhome .useractivity .user-activity-content h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.adminhome .useractivity .user-activity-content p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.adminhome .useractivity .user-activity-content p svg{
+    font-size: 2rem;
+}
+.adminhome .useractivity .user-activity-content p span{
+    margin-left: 1rem;
+}
+
+
+/*Responsive area*/
+@media only screen and (max-width: 768px) {
+    .adminhome .useractivity{    
+        margin-top: 5rem;
+    }
+    .adminhome .useractivity .userImage{
+        
+        width: 25rem;
+        height: 25rem;
+       
+    }
+    .adminhome .useractivity .userImage img{     
+        width: 8rem;
+       
+    }
+    .adminhome .useractivity .user-activity-content{
+        padding: 3.5rem;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .adminhome .useractivity{    
+        flex-direction: column-reverse;
+    }
+     
+}

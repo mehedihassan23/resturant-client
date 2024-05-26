@@ -11,6 +11,8 @@ const Header = () => {
       <ul className='sidebar' style={{ display: toggle ? "flex" : "none" }} >
         <li><NavLink to="" className="link">Resturant</NavLink></li>
         <li><NavLink to="/" className="link">Home</NavLink></li>
+        <li><NavLink to="/contact" className="link">Contact Us</NavLink></li>
+        <li><NavLink to="/dashboard" className="link">Dashboard</NavLink></li>
         <li><NavLink to="/menu" className="link">Our Menu</NavLink></li>
         <li className='mobile-hide'><NavLink to="/shop" className="link">Our Shop</NavLink></li>
         <li><NavLink to="/signin" className="link">Sign In</NavLink></li>
@@ -22,6 +24,10 @@ const Header = () => {
       <ul style={{ display: toggle ? "none" : "flex" }} id='navbar'>
         <li className='logo'><NavLink to="/" className="link">Resturant</NavLink></li>
         <li className='mobile-hide'><NavLink to="/" className="link">Home</NavLink></li>
+        <li className='mobile-hide'><NavLink to="/contact" className="link">Contact Us</NavLink></li>
+        <li className='mobile-hide'>
+          <NavLink to="/dashboard" className="link"> Dashboard </NavLink>
+        </li>
         <li className='mobile-hide'><NavLink to="/menu" className="link">Our Menu</NavLink></li>
         <li className='mobile-hide'><NavLink to="/shop" className="link">Our Shop</NavLink></li>
         <li className='mobile-hide'><NavLink to="/signin" className="link">Sign In</NavLink></li>

@@ -5,8 +5,7 @@ const PageTitle = ({pagetitle,pageicon}) => {
     return (
         <Helmet>
             <title>{pagetitle}</title>
-            <link rel="icon" href={pageicon} />
-             
+            <link rel="icon" href={pageicon} />     
         </Helmet>
     )
 }

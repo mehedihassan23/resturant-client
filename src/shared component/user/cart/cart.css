@@ -1,0 +1,22 @@
+.cart{
+    position: fixed;
+    top: 0;
+    left: 30rem;
+}
+.cart ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.cart ul li{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.cart ul li button{
+    border: none;
+    padding: .8rem 2rem;
+    background-color: darkorange;
+    font-size: 2rem;
+    color: white;
+    border-radius: 3px;
+}

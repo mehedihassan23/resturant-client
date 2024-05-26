@@ -1,0 +1,14 @@
+.allusers{
+    position: fixed;
+    top: 0;
+    left: 30rem;
+}
+.allusers .sectiontitle{
+    height: 10rem;
+    width: 60rem;
+    margin: 1rem auto;
+    
+}
+table{
+    margin-top: 5rem;
+}

@@ -1,0 +1,53 @@
+.dashboardSidebar{
+    width: 25rem;
+    height: 100vh;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: darkorange;
+}
+.dashboardSidebar ul{
+    list-style: none;
+}
+.dashboardSidebar ul li:nth-child(1){
+    margin: 5rem 0;
+}
+.dashboardSidebar ul li:nth-child(1) h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.dashboardSidebar ul li:nth-child(1) h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 9px;
+    text-align: center;
+}
+.dashboardSidebar ul li{
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 2rem;
+    text-transform: uppercase;
+    
+}
+.dashboardSidebar ul li a{
+    text-decoration: none;
+    color: black; 
+}
+.dashboardSidebar ul li span{
+    margin-left: 1rem;
+}
+.dashboardSidebar ul li button{
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: coral;
+    transition: 0.5s;
+}
+.dashboardSidebar ul li button:hover{
+    background-color: rgb(247, 151, 116);
+    cursor: pointer;
+}

@@ -17,3 +17,25 @@
   <li>Design Call Us section for home page</li>
   <li>Design Testimonials section and complete home page design</li>
 </ol>
+
+<h3>Sign in and Sign Up page: </h3>
+<ol>
+  <li>Firstly, set up the route for sign in and sign up page</li>
+  <li>Secondly, set up the link in header section such that user can access this page by the link</li>
+  <li>Design page by creating component and custom css</li>
+  <li>Set page title and finally push the code to Github</li>
+</ol>
+
+<h3>Contact Us page: </h3>
+<ol>
+  <li> Set up the route for Contact Us page</li>
+  <li> Set up the link in header section such that user can access this page by the link</li>
+  <li>Design Contact us page and push code to the Github</li>
+</ol>
+
+<h3>Dashboard: </h3>
+<ol>
+  <li>Today design dashboard for user and admin of this site.</li>
+  <li> In dashboard, User can able to access home, Payment history and all item which he added in his cart.</li>
+  <li>An admin can able to delete, update and add any item. He also can banded any unauthorized user from the dashboard.</li>
+</ol>
